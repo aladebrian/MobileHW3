@@ -1,3 +1,4 @@
+
 import 'package:card_matching/card.dart';
 import 'package:flutter/material.dart';
 import 'package:collection/collection.dart';
@@ -33,11 +34,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  //TODO:
-  // - Do not allow the flipping of cards once its been already flipped
-  // - add list of assets and card randomizer
-  // - figure out logic for card matches
-  // - set card size equal to child image size
 
   // All the faces in the assets folder.
   List<String> deck = [
